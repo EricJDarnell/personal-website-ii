@@ -1,0 +1,43 @@
+header {
+  background-color: gainsboro;
+  position: fixed;
+  height: 55px;
+  align-items: center;
+  padding: 10px;
+  border: 2px double black;
+  top: 0;
+  left: 5px;
+  right: 0;
+  box-shadow: -5px 5px 3px black;
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  width: 80%;
+  padding: 100px;
+  max-width: 1000px;
+  margin-top: 65px;
+  background-color: azure;
+  margin-right: auto;
+  margin-left: auto;
+}
+div {
+  display: inline-block;
+}
+.pic {
+  float: right;
+  border: 2px solid black
+}
+
+body {
+  background-color: #1b1b32;
+}
+
+#me {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#quote {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
