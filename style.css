@@ -13,31 +13,68 @@ header {
   display: flex;
   justify-content: space-between;
 }
+body {
+  background-color: #1b1b32;
+}
 main {
   width: 80%;
-  padding: 100px;
+  padding: 25px;
   max-width: 1000px;
   margin-top: 65px;
   background-color: azure;
   margin-right: auto;
   margin-left: auto;
 }
+#primary {
+  background-color: antiquewhite;
+  margin-left: 11px;
+}
+#secondary {
+  background-color: teal;
+  margin-top: 15px;
+  margin-right: 11px;
+}
+#tertiary {
+  background-color: silver;
+  margin-top: 15px;
+}
 div {
   display: inline-block;
 }
 .pic {
   float: right;
-  border: 2px solid black
+  border: 2px solid black;
+  margin: 11px;
 }
-
-body {
-  background-color: #1b1b32;
+#brain {
+  width: 250px;
+  float: right;
+  margin: 25px;
+}
+#hollow {
+  float: left;
+  width: 250px;
+  margin: 25px;
+}
+#horror {
+  float: right;
+  width: 250px;
+  padding: 15px;
+}
+#portfolio{
+  background-color: red;
 }
 
 #me {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 #quote {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h2 {
+  font-style: italic;
+  text-decoration: underline;
 }
