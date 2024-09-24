@@ -12,3 +12,6 @@ created about page
 created portfolio page
 updated javascript to put message in console
 created contact form
+created success page
+created success.js
+updated javascript.js on submit
