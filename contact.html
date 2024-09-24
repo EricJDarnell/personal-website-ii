@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="javascript.js"></script>
     <title>Contact</title>
-</head>
- <!-- persistent header -->
- <header>
-    <div id="name">ERIC DARNELL</div>
-    <div class="links">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </header>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- persistent header -->
+    <header>
+      <div id="name">ERIC DARNELL</div>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </header>
+    <main id="form">
+        <h1>Contact</h1>
+        <hr>
+        <form action="success.html">
+            <fieldset>
+                <label for="name">Name: <input id="name" type="text" required></label>
+                <label for="email">email: <input id="email" type="text" required></label>
+                <label for="message">Type a short message: <input id="message" type="text"></label>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+    <h1></h1>
+  </body>
 </html>
