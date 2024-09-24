@@ -20,7 +20,7 @@ body {
 main {
   width: 80%;
   padding: 25px;
-  max-width: 1000px;
+  max-width: 1000px !important;
   margin-top: 65px;
   background-color: azure;
   margin-right: auto;
@@ -84,6 +84,22 @@ input {
 }
 
 #message {
-  width: 80%;
+  width: calc(100% - 15px);
   height: 250px;
+}
+
+#form {
+  z-index: 1; 
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: orangered;
+}
+
+a:active {
+  color: aqua;
 }
